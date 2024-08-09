@@ -6,8 +6,8 @@ function loco() {
         smooth: true,
         lerp: 0.08, // Added lerp property to control the inertia (value between 0 and 1)
         smoothMobile: true, // Added smoothMobile property to enable smooth scrolling on mobile devices
-        multiplier: .9 // Added multiplier property to adjust the scrolling speed (default is 1)
-        // multiplier: 1.05 // Added multiplier property to adjust the scrolling speed (default is 1)
+        // Added multiplier property to adjust the scrolling speed (default is 1)
+         multiplier: 1.05 // Added multiplier property to adjust the scrolling speed (default is 1)
     });
 
     locoScroll.on("scroll", ScrollTrigger.update);
